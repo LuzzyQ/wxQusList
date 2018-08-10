@@ -1,0 +1,16 @@
+<import src="setoption-tpl/setoptionTpl.wxml" />
+<view class="body">
+  <text class='input-title'>你的题目</text>
+  <form bindsubmit='' bindreset=''>
+    <view class='section'>
+      <textarea class="input-frame" value='请输入题目'></textarea>
+    </view>
+    <picker bindchange='PickerChange' class="picker-style" value='{{index}}' range="{{hello}}">
+      <text>选项个数:  {{hello[index]}}</text>
+    </picker>
+    <view class='button-location'>
+    <button class='button-next'>下一步</button>
+    <button class='button-next'>填写完成</button>
+  </view>
+  </form>
+</view>

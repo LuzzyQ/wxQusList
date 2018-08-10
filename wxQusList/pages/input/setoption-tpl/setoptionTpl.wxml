@@ -1,0 +1,7 @@
+
+<template name="setoptionTpl">
+  <view class="option-style">
+    <text>{{item}}</text>
+    <input class="section"></input>
+  </view>
+</template>
