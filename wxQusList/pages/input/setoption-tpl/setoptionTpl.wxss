@@ -1,0 +1,21 @@
+.option-style{
+  display: flex;
+  flex-direction:row; 
+}
+.option-style text{
+  margin-top: 40rpx;
+  margin-left: 10rpx;
+  font-size: 50rpx
+}
+.section{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  border: 1.5px solid #99cccc;
+  border-radius: 5px
+}
