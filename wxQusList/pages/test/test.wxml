@@ -1,0 +1,7 @@
+<import src="question/question"/>
+<view>
+
+  <label wx:for='{{QuestionList}}' wx:key='key' wx:for-index='idx'>
+    <template is="QuestionModule" data="{{...item}}"/>
+  </label>
+</view>

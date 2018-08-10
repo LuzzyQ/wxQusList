@@ -1,0 +1,9 @@
+<template name="QuestionModule">
+  <view class='question-container'>
+
+    <text class='question-title'>{{index+1}}、{{title}}</text>
+    <label wx:for="{{optionlist}}" wx:key="key">
+      <checkbox class='question-check'>{{item}}</checkbox>
+    </label>
+  </view>
+</template>

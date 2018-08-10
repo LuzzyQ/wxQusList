@@ -1,0 +1,20 @@
+/* pages/test/test.wxss */
+.question-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  border-top: 1px solid #999;
+  margin-top: 30rpx;
+  padding-top: 20rpx;
+  
+
+}
+.question-title{
+  font-size: 40rpx;
+  margin-bottom: 20rpx
+}
+.question-check{
+  font-size: 32rpx;
+  margin-top:10rpx ;
+}
